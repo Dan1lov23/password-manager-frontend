@@ -1,0 +1,16 @@
+.defaultButton {
+    button {
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+        background: #2525c5;
+        transition: 0.3s;
+        color: white;
+    }
+    button:hover {
+        background: #1e4adf;
+        scale: 1.1;
+        box-shadow: 0 4px 8px 0 rgba(12, 12, 12, 12), 0 6px 20px 0 rgba(12, 12, 0, 0.19);
+    }
+}
