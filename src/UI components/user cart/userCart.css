@@ -1,0 +1,19 @@
+.userCart {
+    display: grid;
+    justify-items: center;
+    margin-top: 1%;
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        border: 2px solid #2525c5;
+        width: 95%;
+        p {
+
+            font-size: 1.4rem;
+        }
+        .deleteUserButton {
+            margin-top: 4%;
+        }
+    }
+}
